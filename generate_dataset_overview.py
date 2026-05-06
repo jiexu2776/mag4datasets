@@ -4,7 +4,26 @@ import os
 
 def process_json_files(json_folder, csv_filename):
     data_list = []
-    all_keys = set()
+    # all_keys = set()
+    all keys = [
+        'Title',
+        'Short Title',
+        'Type',
+        'Version',
+        'Source',
+        'Name',
+        'ORCID',
+        'Description',
+        'Keywords',
+        'Creation Date',
+        'dois',
+        'Upload Date',
+        'Licence',
+        'Comments',
+        'Comment',
+        'References',
+        'Request doi',
+    ]
 
     for filename in os.listdir(json_folder):
         if filename.endswith(".json"):
