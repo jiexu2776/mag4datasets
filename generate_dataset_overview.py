@@ -10,6 +10,7 @@ def process_json_files(json_folder, csv_filename):
         'alternateName',
         'type',
         'version',
+        'citation',
         'creator_affiliation',
         'creater_name',
         'creater_orcid',
@@ -20,7 +21,6 @@ def process_json_files(json_folder, csv_filename):
         'datePublished',
         'licence',
         'comment',
-        'citation',
         'doiRequest',
     ]
 
